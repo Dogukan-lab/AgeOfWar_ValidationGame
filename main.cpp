@@ -1,8 +1,10 @@
 //
 // Created by doguk on 12/4/2024.
 //
-#include <iostream>
+#include <BlockyEngine.hpp>
 
+// TODO Has to be the place where the scene actually gets initialized
 int main() {
-	std::cout << "Hello World!" << std::endl;
+	BlockyEngine engine;
+	engine.Run();
 }
